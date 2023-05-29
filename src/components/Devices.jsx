@@ -12,7 +12,7 @@ import {AiFillStar} from 'react-icons/ai'
 
 const Devices = () => {
   return (
-    <div className='md:max-w-[1320px] bg-black rounded-xl flex flex-col m-auto p-3 mt-4 ml-6'>
+    <div className='md:max-w-[1350px] bg-black rounded-xl flex flex-col m-auto p-3 mt-4 ml-5'>
         
         <div className='lg:flex justify-center mt-5 gap-5 grid grid-cols-2'>
         <div className='relative md:w-[250px] w-[150px]'>
@@ -27,57 +27,56 @@ const Devices = () => {
             <div className='relative text-center text-white'>
                 
                 <img className='w-[200px] h-[200px] border-2 rounded-xl' src={img1} alt="vape" />
-                <h1>Refreshing Mint</h1>
-                <p>30,000MMK</p>
-                <p className='line-through text-xs'>30,000MMK</p>
-                <p className='text-yellow-400 flex '><span className='mr-2 ml-12'><AiFillStar size={15} className='mt-1'/></span>600 points</p>
+                <h1 className='lg:mr-0 md:mr-40 sm:mr-14'>Refreshing Mint</h1>
+                <p className=' lg:mr-0 md:mr-40 sm:mr-14' >30,000MMK</p>
+                <p className='line-through text-xs lg:mr-0 md:mr-40 sm:mr-14'>30,000MMK</p>
+                <p className='text-yellow-400 flex '><span className='mr-2 lg:ml-7 sm:ml-14 ml-7'><AiFillStar size={15} className='mt-1'/></span>600 points</p>
             </div>
 
             <div className='relative text-center text-white'>
                 
                 <img className='w-[200px] h-[200px] border-2 rounded-xl' src={img2} alt="vape" />
-                <h1>Refreshing Mint</h1>
-                <p>30,000MMK</p>
-                <p className='line-through text-xs'>30,000MMK</p>
-                <p className='text-yellow-400 flex '><span className='mr-2 ml-12'><AiFillStar size={15} className='mt-1'/></span>600 points</p>
+                <h1 className='lg:mr-0 md:mr-40 sm:mr-14'>Refreshing Mint</h1>
+                <p className='lg:mr-0 md:mr-40 sm:mr-14'>30,000MMK</p>
+                <p className='line-through text-xs lg:mr-0 md:mr-40 sm:mr-14'>30,000MMK</p>
+                <p className='text-yellow-400 flex '><span className='mr-2 lg:ml-7 sm:ml-14 ml-7'><AiFillStar size={15} className='mt-1'/></span>600 points</p>
             </div>
 
             <div className='relative text-center text-white'>
                 
                 <img className='w-[200px] h-[200px] border-2 rounded-xl' src={img3} alt="vape" />
-                <h1>Refreshing Mint</h1>
-                <p>30,000MMK</p>
-                <p className='line-through text-xs'>30,000MMK</p>
-                <p className='text-yellow-400 flex '><span className='mr-2 ml-12'><AiFillStar size={15} className='mt-1'/></span>600 points</p>
+                <h1 className='lg:mr-0 md:mr-40 sm:mr-14'>Refreshing Mint</h1>
+                <p className='lg:mr-0 md:mr-40 sm:mr-14'>30,000MMK</p>
+                <p className='line-through text-xs lg:mr-0 md:mr-40 sm:mr-14'>30,000MMK</p>
+                <p className='text-yellow-400 flex '><span className='mr-2 lg:ml-7 sm:ml-14 ml-7'><AiFillStar size={15} className='mt-1'/></span>600 points</p>
             </div>
 
             <div className='hidden lg:flex-col lg:flex relative text-center text-white'>
                 
                 <img className='w-[200px] h-[200px] border-2 rounded-xl' src={img4} alt="vape" />
-                <h1>Refreshing Mint</h1>
-                <p>30,000MMK</p>
-                <p className='line-through text-xs'>30,000MMK</p>
-                <p className='text-yellow-400 flex '><span className='mr-2 ml-12'><AiFillStar size={15} className='mt-1'/></span>600 points</p>
+                <h1 className='lg:mr-0 md:mr-40 sm:mr-14'>Refreshing Mint</h1>
+                <p className='lg:mr-0 md:mr-40 sm:mr-14'>30,000MMK</p>
+                <p className='line-through text-xs lg:mr-0 md:mr-40 sm:mr-14'>30,000MMK</p>
+                <p className='text-yellow-400 flex '><span className='mr-2 lg:ml-7 sm:ml-14 ml-7'><AiFillStar size={15} className='mt-1'/></span>600 points</p>
             </div>
 
             <div className=' relative text-center text-white'>
                 
                 <img className='w-[200px] h-[200px] border-2 rounded-xl' src={img5} alt="vape" />
-                <h1>Refreshing Mint</h1>
-                <p>30,000MMK</p>
-                <p className='line-through text-xs'>30,000MMK</p>
-                <p className='text-yellow-400 flex '><span className='mr-2 ml-12'><AiFillStar size={15} className='mt-1'/></span>600 points</p>
+                <h1 className='lg:mr-0 md:mr-40 sm:mr-14'>Refreshing Mint</h1>
+                <p className='lg:mr-0 md:mr-40 sm:mr-14'>30,000MMK</p>
+                <p className='line-through text-xs lg:mr-0 md:mr-40 sm:mr-14'>30,000MMK</p>
+                <p className='text-yellow-400 flex '><span className='mr-2 lg:ml-7 sm:ml-14 ml-7'><AiFillStar size={15} className='mt-1'/></span>600 points</p>
             </div>
 
             <div className='hidden lg:flex-col lg:flex relative text-center text-white'>
                 
                 <img className='w-[200px] h-[200px] border-2 rounded-xl' src={img6} alt="vape" />
-                <h1>Refreshing Mint</h1>
-                <p>30,000MMK</p>
-                <p className='line-through text-xs'>30,000MMK</p>
-                <p className='text-yellow-400 flex '><span className='mr-2 ml-12'><AiFillStar size={15} className='mt-1'/></span>600 points</p>
+                <h1 className='lg:mr-0 md:mr-40 sm:mr-14'>Refreshing Mint</h1>
+                <p className='lg:mr-0 md:mr-40 sm:mr-14'>30,000MMK</p>
+                <p className='line-through text-xs lg:mr-0 md:mr-40 sm:mr-14'>30,000MMK</p>
+                <p className='text-yellow-400 flex '><span className='mr-2 lg:ml-7 sm:ml-14 ml-7'><AiFillStar size={15} className='mt-1'/></span>600 points</p>
             </div>
-            
         </div>
     </div>
   )
