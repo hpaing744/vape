@@ -12,7 +12,7 @@ import {AiFillStar} from 'react-icons/ai'
 
 const Devices = () => {
   return (
-    <div className='md:max-w-[1350px] bg-black rounded-xl flex flex-col m-auto p-3 mt-4'>
+    <div className='md:max-w-[1320px] bg-black rounded-xl flex flex-col m-auto p-3 mt-4 ml-6'>
         
         <div className='lg:flex justify-center mt-5 gap-5 grid grid-cols-2'>
         <div className='relative md:w-[250px] w-[150px]'>

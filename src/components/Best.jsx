@@ -82,8 +82,8 @@ const Best = () => {
             </div>
             
         </div>
-        <div className='absolute lg:bottom-[10%] bottom-4 lg:left-[48%] left-[40%]'>
-            <button className='border bg-gray-400 rounded-full p-2'>View More</button>
+        <div className='absolute lg:ml-0 ml-10 lg:bottom-[10%] bottom-14 lg:left-[48%] left-[40%]'>
+            <button className='border bg-gray-600 rounded-full px-3 py-2 text-white'>View More</button>
         </div>
     </div>
   )

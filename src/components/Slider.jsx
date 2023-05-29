@@ -50,7 +50,7 @@ const Slider = () => {
   return (
     <div className='w-full h-screen group'>
       <div className='top-0 left-0 w-full h-screen bg-cover duration-500' style={{backgroundImage:`url(${slides[currentIndex].url})`}}>
-        <div className='flex flex-col text-center absolute bottom-0 left-[18%] lg:bottom-[15%] lg:left-[44%]'>
+        <div className='flex flex-col text-center absolute bottom-4 sm:bottom-10 sm:left-[36%] left-[18%] lg:bottom-[10%] lg:left-[38%]'>
           <div>
             <p className='text-white lg:text-2xl mt-2'>The Best Look</p>
             <p className='font-bold text-white text-3xl lg:text-5xl mt-2'>Anytime Anywhere</p>

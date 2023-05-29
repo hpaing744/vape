@@ -15,7 +15,7 @@ import img8 from '../assets/twitter.jpg'
 
 const Footer = () => {
   return (
-    <div className='w-full md:max-w-[1350px] m-auto mt-5'>
+    <div className='w-full md:max-w-[1350px] m-auto mt-5 ml-7'>
         <div className='lg:grid-cols-4 grid grid-cols-2 justify-between p-2'>
             <div>
                 <h1 className='text-2xl'>Customer Service</h1>
