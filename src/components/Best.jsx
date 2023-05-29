@@ -11,7 +11,7 @@ import img6 from '../assets/vape(6).webp'
 
 const Best = () => {
   return (
-    <div className='relative mt-8 md:h-[500px] h-[800px]'>
+    <div className='relative mt-8 sm:h-[500px] h-[800px] ml-1'>
         <h1 className='text-2xl lg:text-4xl text-center font-bold'>Best Deals</h1>
         <p className='text-center text-xl lg:text-2xl'>Just For You</p>
         <div className='md:flex sm:flex justify-center mt-5 gap-5 grid grid-cols-2'>
@@ -82,7 +82,7 @@ const Best = () => {
             </div>
             
         </div>
-        <div className='absolute lg:ml-0 ml-10 lg:bottom-[10%] bottom-14 lg:left-[48%] left-[40%]'>
+        <div className='absolute lg:ml-0 ml-10 lg:bottom-[10%] bottom-14 lg:left-[47%] sm:left-[40%] left-24'>
             <button className='border bg-gray-600 rounded-full px-3 py-2 text-white'>View More</button>
         </div>
     </div>
